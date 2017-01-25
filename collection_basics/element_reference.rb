@@ -3,7 +3,7 @@
 str = 'The grass is green'
 
 # option 1 to reference is
-puts str[4, 6]
+puts str[4, 5]
 
 puts '-----------------------'
 # option2
