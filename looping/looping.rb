@@ -10,3 +10,12 @@ loop do
 end
 
 p arr
+
+# Notes
+=begin
+  inorder to manually loop over the a collection of elements you need the following
+  => loop
+  => counter
+  => a way to retrieve the current value
+  => break
+=end
