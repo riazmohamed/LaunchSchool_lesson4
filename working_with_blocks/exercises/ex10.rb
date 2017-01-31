@@ -53,7 +53,7 @@ arr = hsh.map do |_, value|
 
 p arr
 
-# observation the value of all the elements turn to nil if capitalize and upcase are replaced with capitalize! and upcase! (as below)
+# observation the value of all the elements turn to nil if capitalize and upcase are replaced with capitalize! and upcase! (as below) ----- fixed!---
 hsh = {
   'grape' => {type: 'fruit', colors: ['red', 'green'], size: 'small'},
   'carrot' => {type: 'vegetable', colors: ['orange'], size: 'medium'},
