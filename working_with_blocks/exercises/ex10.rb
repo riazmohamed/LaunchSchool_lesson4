@@ -54,6 +54,14 @@ arr = hsh.map do |_, value|
 p arr
 
 # observation the value of all the elements turn to nil if capitalize and upcase are replaced with capitalize! and upcase! (as below)
+hsh = {
+  'grape' => {type: 'fruit', colors: ['red', 'green'], size: 'small'},
+  'carrot' => {type: 'vegetable', colors: ['orange'], size: 'medium'},
+  'apple' => {type: 'fruit', colors: ['red', 'green'], size: 'medium'},
+  'apricot' => {type: 'fruit', colors: ['orange'], size: 'medium'},
+  'marrow' => {type: 'vegetable', colors: ['green'], size: 'large'},
+}
+
 puts "-----why is this nil?-----"
 arr = hsh.map do |_, value|
         if value[:type] == 'fruit'
