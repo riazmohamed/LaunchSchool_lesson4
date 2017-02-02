@@ -1,4 +1,4 @@
-# ex8.rb
+# ex9.rb
 
 words = "the flintstones rock"
 # my solution
